@@ -291,6 +291,147 @@
 // Chapter 6-9
 
 
+//1) var a = 10;
+
+// document.writeln(
+// `
+// Result: <br>
+// The of a is: ${a} <br> <br>
+
+// -------------------------------------------- <br> <br>
+
+// The value of ++a is: ${++a} <br>
+// Now the value of a is: ${a} <br> <br>
+
+// The value of a++ is: ${a++} <br>
+// Now the value of a is: ${a} <br> <br>
+
+// The value of --a is: ${--a} <br>
+// Now the value of a is: ${a} <br> <br>
+
+// The value of a-- is: ${a--} <br>
+// Now the value of a is: ${a} 
+
+// `
+
+// )
+
+
+//2) var a = 2;
+// var b = 1; 
+// var result = --a - --b + ++b + b--;
+
+// /*
+// Output at each stage,
+// --a; // Pre decrement of a
+
+// --a - --b; // Pre decrement of a - pre decrement of b 
+
+// --a - --b + ++b; // Pre decrement of a - pre decrement of b + pre increment of b
+
+// --a - --b + ++b + b-- // Pre decrement of a - pre decrement of b + pre increment of b + post decrement of b
+// */
+
+
+// document.writeln(
+// `
+// a is: ${a} <br>
+// b is: ${b} <br>
+// Result: ${result}
+
+// `
+
+// )
+
+//3 var user = prompt("Enter Name");
+// user = `Welcome User`;
+// document.writeln(user)
+
+
+
+
+//5) var num = +prompt("Enter number", 5);
+// document.writeln(
+//     `
+//     <ul>
+// <li> ${num} x 1 = ${num * 1} </li>
+// <li> ${num} x 2 = ${num * 2} </li>
+// <li> ${num} x 3 = ${num * 3} </li>
+// <li> ${num} x 4 = ${num * 4} </li>
+// <li> ${num} x 5 = ${num * 5} </li>
+// <li> ${num} x 6 = ${num * 6} </li>
+// <li> ${num} x 7 = ${num * 7} </li>
+// <li> ${num} x 8 = ${num * 8} </li>
+// <li> ${num} x 9 = ${num * 9} </li>
+// <li> ${num} x 10 = ${num * 10} </li>
+// <li> ${num} x 11 = ${num * 11} </li>
+// <li> ${num} x 12 = ${num * 12} </li>
+//     </ul>
+//     `
+// )
+
+
+
+
+//6) var marksInEng = +prompt("Marks Obtained in English");
+// var marksInMaths = +prompt("Marks Obtained in Maths");
+// var marksInUrdu = +prompt("Marks Obtained in Urdu");
+
+// var totalMarks = 100;
+// var percentageOfEng = (marksInEng / totalMarks) * 100;
+// var percentageOfMaths = (marksInMaths / totalMarks) * 100;
+// var percentageOfUrdu = (marksInUrdu / totalMarks) * 100;
+
+// var averagePercentage = (percentageOfEng + percentageOfMaths + percentageOfUrdu) / 3;
+// var totalObtainedMarks = marksInEng + marksInMaths + marksInUrdu;
+// var subTotalMarks = totalMarks * 3;
+
+// document.writeln(
+// `
+// <table border='2px' width='60%' height='200px' align='center'>
+// <tr> 
+// <th> Subject </th>
+// <th> Total Marks </th>
+// <th> Marks Obtained </th>
+// <th> Percentage </th>
+// </tr>
+
+// <tr> 
+// <td> English </td>
+// <td> ${totalMarks} </td>
+// <td> ${marksInEng} </td>
+// <td> ${percentageOfEng.toFixed(3)}% </td>
+// </tr>
+
+// <tr> 
+// <td> Maths </td>
+// <td> ${totalMarks} </td>
+// <td> ${marksInMaths} </td>
+// <td> ${percentageOfMaths.toFixed(3)}% </td>
+// </tr>
+
+// <tr> 
+// <td> Urdu </td>
+// <td> ${totalMarks} </td>
+// <td> ${marksInUrdu} </td>
+// <td> ${percentageOfUrdu.toFixed(3)}% </td>
+// </tr>
+
+
+// <tr> 
+// <th> </th>
+// <th> ${subTotalMarks} </th>
+// <th> ${totalObtainedMarks} </th>
+// <th> ${averagePercentage.toFixed(3)}% </th>
+// </tr>
+
+// </table>
+
+
+// `
+
+// )
+
 
 
 
