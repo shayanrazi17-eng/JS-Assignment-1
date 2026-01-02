@@ -349,6 +349,9 @@
 
 
 
+// 4) Not Given
+
+
 
 //5) var num = +prompt("Enter number", 5);
 // document.writeln(
